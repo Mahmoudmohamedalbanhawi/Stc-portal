@@ -1,0 +1,111 @@
+{
+    "lang":"العربية",
+    "header":"Naser Mohammed",
+    "auth":{
+        "invite":"You are invited by",
+        "name":"Naser Mohamed A Almuhawwis",
+        "position":"Solutions and Technologies Section Manager",
+        "profile":"See profile",
+        "Invitation":"Accept Invitation",
+        "Interested":"Not interested?",
+        "otp":{
+            "OtpEnter":"Enter OTP",
+            "OtpEmail":"WE HAVE SENT AN EMAIL TO YOUR EMAIL ADDRESS",
+            "OtpEmailName":"ree..........@stc.com.sa",
+            "OtpRequire":"OTP is required",
+            "OtpNumbres":"Only numbers are allowed" ,
+            "OtpDigits":"OTP must be 4 digits",
+            "OtpResend":"RESEND THE CODE",
+            "OtpVerify":"VERIFY THE ACCOUNT",
+            "Services":{
+                "header":"Select the services you use from stc",
+                "content":"Select from the below list",
+                "categories": {
+                    "Fixed Lines": "Fixed Lines",
+                    "Mobile Lines": "Mobile Lines",
+                    "ADSL Data": "ADSL Data",
+                    "Devices": "Devices"
+                  },
+                  "Accept":"done",
+                  "Skip":"Skip this step"
+            }
+        },
+        "Notinterested":{
+            "confirm":"Are you sure",
+            "reject":"Do you want to reject the invitation?",
+            "exit":"Once you exit you can’t join again.",
+            "Enter":"CONFIRM",
+            "header":"Whoops!",
+            "expire":"Your invitaion has expired",
+            "ExpireInvitation":"Your invitaion has expired due to your inactivity"
+        }
+
+    },
+    "sidebar":{
+        "home":"home",
+        "discover":"Discover Tafani",
+        "community":"Community",
+        "products":"Products & Services",
+        "feedback":"Feedback",
+        "faq":"FAQs",
+        "leaderboard":"Leaderboard"
+    },
+    "accept-term":{
+        "invitation":"Accept Invitation",
+        "condition":"Accept Terms & Conditions",
+        "Reading":"Read and Accept the Terms & Conditions for continue to proceed.",
+        "Confidential":"1.Confidential",
+        "Access":"Access and use of University-issued devices is a privilege that is granted in connection with an individual's duties to the University. These devices are to be used for conducting University business and/or in furtherance of the educational mission of the University. Requests for University-paid services require approval by an authorized department representative and the Provost's Office.",
+        "Telecommunications":"Telecommunications will select a small number of approved devices. These devices have been tested for compatibility with the most common Brown applications and Brown WiFi. Should an end user desire a device/feature/service that is not available on one of the approved devices, the end user may present a case for Telecommunications to review the device for conditional approval. In the event the device is not approved and an end user still wants it, the end user will be required to sign a waiver confirming understanding that the University will offer best effort support of the devices. University-issued devices will be configured by CIS and will have active-synch enabled. The University reserves the right to 'push' policies to mobile devices and to remotely reset devices. Any attempt to override University policies, i.e., 'Jailbreak' a University-issued device, or any other action that violates manufacturer's warranty or Brown's agreement with carriers is prohibited.",
+        "Exclusions":"2. Exclusions",
+        "Requests":"Requests for University-paid services require approval by an authorized department representative and the Provost's Office.",
+        "Devices":"These devices have been tested for compatibility with the most common Brown applications and Brown WiFi. Should an end user desire a device/feature/service that is not available on one of the approved devices, the end user may present a case for Telecommunications to review the device for conditional approval. In the event the device is not approved and an end user still wants it, the end user will be required to sign a waiver confirming understanding that the University will offer 'best effort' support of the devices. University-issued devices will be configured by CIS and will have active-synch enabled. The University reserves the right to 'push' policies to mobile devices and to remotely reset devices. Any attempt to override University policies, i.e., 'Jailbreak' a University-issued device, or any other action that violates manufacturer's warranty or Brown's agreement with carriers is prohibited.",
+        "Use":"3. Use",
+        "App":"Brown applications and Brown WiFi. Should an end user desire a device/feature/service that is not available on one of the approved devices, the end user may present a case for Telecommunications to review the device for conditional approval. In the event the device is not approved and an end user still wants it, the end user will be required to sign a waiver confirming understanding that the University will offer 'best effort' support of the devices. University-issued devices will be configured by CIS and will have active-synch enabled. The University reserves the right to 'push' policies to mobile devices and to remotely reset devices.",
+        "continue":"Accept and Continue"
+    },
+    "leaderboard":{
+        "welcome":"Welcome,",
+        "name":"Naser Mohammed A Almuhawwis",
+        "level":"Beginner User",
+        "account":"View Ambassador Account",
+        "board":"Your leaderboard",
+        "verified":"Your verified achievements in the global community can help you get recognize and stand  out at your workplace.",
+        "congrats":"Congrats! 🎉",
+        "yourlevel":"You’ve earned Beginner level",
+        "date":"29 May 2022",
+        "share":"Share in community",
+        "mypoint":"My Points",
+        "pointsnumber":"32,000",
+        "point":"point",
+        "timeupdate":"Last updated on 29 Jun 2022",
+        "activities":"Activities and Points",
+        "badgepoints":"Badge Points",
+        "activitie": [
+            { "activity": "Ask a Question", "points": "100 points" },
+            { "activity": "Submit a Survey", "points": "200 points" },
+            { "activity": "Follow a new memeber", "points": "40 points" },
+            {"activity":"Answer a question" , "points":"80 points"},
+            {"activity":"First login" , "points":"55 points"},
+            {"activity":"Add feedback/Idea" , "points":"17 points"},
+            {"activity":"Reply an answer" , "points":"20 points"},
+            {"activity":"React on answer/reply" , "points":"15 points"}
+          ],
+          "badgepoint":[
+            {"name":"Beginner User" , "src":"/assets/images/achievement-124188.png" , "rangepoints":"0 to 99 pts" , "pill":"Earned badge" , "Eligble":"Points, Qitaf points, Badge, Leaderboard"},
+            {"name":"Advanced User", "src":"/assets/images/medal-124197.png","rangepoints":"1,000 - 4,999 pts","pill":"Coming badge","Eligble":"Points, Badge, Leaderboard, Qitaf points, Certificate of Achievement"},
+            {"name":"Influncer", "src":"/assets/images/cup-124193.png","rangepoints":"5,000 - 9,999 pts","pill":"","Eligble":"Points, Badge,Leaderboard, Qitaf Points,Certificate of Achievement, Easter Eggs, Service Discounts"},
+            {"name":"Tafani User", "src":"/assets/images/award-124191.png","rangepoints":"10,000+ pts","pill":"","Eligble":"Points, Badge,Leaderboard, Qitaf Points,Certificate of Achievement, Easter Eggs, Service Discounts, Leadership kudos"}
+            
+            
+          ]
+       
+    },
+    "home":{
+        "status":"Premium",
+        "trend":"Trend",
+        "topics":"Followed Topics",
+        "news":"Latest News",
+        "videos":"How-to Videos"
+    }
+}

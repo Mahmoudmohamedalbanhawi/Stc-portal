@@ -1,0 +1,48 @@
+<section>
+    <div class="w-11  mx-auto" >
+        <div class="mt-6">
+            <span class="coral cursor-pointer STC-MEDIUM text-xl">{{"accept-term.invitation"|translate}}
+                <svg *ngIf="TranslateService.currentLang !== 'ar'" class="mb-0 mt-1 vertical-align-middle -mx-1" width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path  d="M14.8297 7.28995L10.5897 3.04995C10.4967 2.95622 10.3861 2.88183 10.2643 2.83106C10.1424 2.78029 10.0117 2.75415 9.8797 2.75415C9.74769 2.75415 9.61698 2.78029 9.49512 2.83106C9.37326 2.88183 9.26266 2.95622 9.1697 3.04995C8.98345 3.23731 8.87891 3.49076 8.87891 3.75495C8.87891 4.01913 8.98345 4.27259 9.1697 4.45995L12.7097 7.99995L9.1697 11.5399C8.98345 11.7273 8.87891 11.9808 8.87891 12.2449C8.87891 12.5091 8.98345 12.7626 9.1697 12.9499C9.26314 13.0426 9.37395 13.116 9.49579 13.1657C9.61763 13.2155 9.74809 13.2407 9.8797 13.2399C10.0113 13.2407 10.1418 13.2155 10.2636 13.1657C10.3854 13.116 10.4963 13.0426 10.5897 12.9499L14.8297 8.70995C14.9234 8.61699 14.9978 8.50638 15.0486 8.38453C15.0994 8.26267 15.1255 8.13196 15.1255 7.99995C15.1255 7.86794 15.0994 7.73723 15.0486 7.61537C14.9978 7.49351 14.9234 7.38291 14.8297 7.28995Z" fill="#8E9AA0"/>
+                    </svg>
+                    <svg *ngIf="TranslateService.currentLang === 'ar'" class="mb-0 mt-1 vertical-align-middle -mx-1" width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.1703 7.29005L13.4103 3.05005C13.5033 2.95632 13.6139 2.88193 13.7357 2.83116C13.8576 2.78039 13.9883 2.75425 14.1203 2.75425C14.2523 2.75425 14.383 2.78039 14.5049 2.83116C14.6267 2.88193 14.7373 2.95632 14.8303 3.05005C15.0166 3.23741 15.1211 3.49087 15.1211 3.75505C15.1211 4.01923 15.0166 4.27269 14.8303 4.46005L11.2903 8.00005L14.8303 11.5401C15.0166 11.7274 15.1211 11.9809 15.1211 12.2451C15.1211 12.5093 15.0166 12.7627 14.8303 12.9501C14.7369 13.0428 14.626 13.1162 14.5042 13.166C14.3824 13.2158 14.252 13.2409 14.1203 13.2401C13.9887 13.2409 13.8582 13.2158 13.7364 13.166C13.6146 13.1162 13.5037 13.0428 13.4103 12.9501L9.1703 8.71005C9.07662 8.61709 9.00222 8.50648 8.95145 8.38463C8.90068 8.26277 8.87455 8.13206 8.87455 8.00005C8.87455 7.86804 8.90068 7.73733 8.95145 7.61547C9.00222 7.49361 9.07662 7.38301 9.1703 7.29005Z" fill="#8E9AA0"/>
+                      </svg>
+            </span>
+            <span class="manatee cursor-pointer text-xl STC-MEDIUM">
+               {{"accept-term.condition" | translate}}
+            </span>
+            <div class="w-9 mx-auto">
+                <div class=" Isabelline-bg  px-6 mt-6 py-5">
+                    <p class="STC-REGULAR black text-5xl ">{{"accept-term.invitation"|translate}}</p>
+                    <span class="block STC-REGULAR text-base mb-6 manatee">{{"accept-term.Reading"|translate}}</span>
+                    <p class="STC-MEDIUM text-4xl black">{{"accept-term.Confidential"|translate}}</p>
+                    <span class="block STC-REGULAR black mb-4 text-base mt-2">{{"accept-term.Access"|translate}}
+                    </span>
+                    <span class="block STC-REGULAR black mb-6 text-base">
+                        {{"accept-term.Telecommunications"|translate}}
+                        </span>
+                        <p class="STC-MEDIUM text-4xl black ">{{"accept-term.Exclusions"|translate}}</p>
+                        <span class="block STC-REGULAR black mb-4 text-base mt-2">
+                            {{"accept-term.Requests"|translate}}
+                        </span>
+                        <span class="block STC-REGULAR black mb-6 text-base">
+                            {{"accept-term.Devices"|translate}}
+                        </span>
+                        <p class="STC-MEDIUM text-4xl black"> {{"accept-term.Use"|translate}}</p>
+                        <span class="block STC-REGULAR black  text-base mt-2">
+                            {{"accept-term.App"|translate}}
+                        </span>
+                     
+                </div>
+             <div class="flex justify-content-end mt -mr-4 mt-8 mb-6" [ngClass]="{'-mr-4':TranslateService.currentLang !== 'ar' , '-ml-4': TranslateService.currentLang === 'ar'}">
+            <button (click)="navigate()" class=" coral-bg   border-transparent  cursor-pointer  py-2 px-4">
+                <a  class="white text-base STC-MEDIUM">{{"accept-term.continue"|translate}}</a>
+            </button>
+          </div>
+            </div>
+           
+       
+        </div>
+    </div>
+</section>

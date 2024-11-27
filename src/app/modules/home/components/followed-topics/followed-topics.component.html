@@ -1,0 +1,28 @@
+<div class="flex gap-6" *ngIf="followedTopics && followedTopics.length > 0">
+    <div class="w-9">
+      <stc-highlighted-topics [followedTopics]="followedTopics"></stc-highlighted-topics>
+      <div *ngFor="let answerGroup of answersByTopic" class="border-bottom-2">
+        <stc-question-details
+          *ngFor="let answer of answerGroup; let answerIndex = index"
+          [answer]="answerIndex === 1"
+          [answerstopic]="answer">
+        </stc-question-details>
+      </div>
+    </div>
+    <div class="w-4 Isabelline-bg">
+        <div class="px-3 py-5">
+            <p class="STC-BOLD text-2xl mb-5" >{{"home.videos"|translate}}</p>
+            <div *ngFor="let answerGroup of followedTopics ;let i = index">
+                <div class="img ">
+                    <img class="w-full" [src]="answerGroup.urlToImage" alt="img"/>
+                 </div>
+                 <div >
+                    <p class="STC-BOLD black  mt-3 mb-5  pb-3 text-base" [ngClass]="{'border-bottom-2 ': i!== followedTopics.length -1}">
+                        {{answerGroup.title}}
+                    </p>
+                 </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  

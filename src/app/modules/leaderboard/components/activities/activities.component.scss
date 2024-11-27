@@ -1,0 +1,32 @@
+@import '../../../../../assets/scss/utils/variables';
+:host ::ng-deep  div{
+    .p-datatable-table {
+        width: 60% !important;
+        box-shadow: 0px 5px 20px -10px $shadow-table;
+        background-color:$white !important;
+        padding: 30px;
+        }
+        .p-datatable .p-datatable-thead > tr > th {
+            background: transparent !important;
+            font-family: 'STC-BOLD';
+            font-size: 14px;
+            color: $black;
+            padding: 15px;
+            border-bottom:1px solid $border-table !important;
+           
+            }
+            .p-datatable .p-datatable-tbody > tr > td {
+                border-bottom:1px solid $border-table !important;
+                padding: 15px;
+                font-family: 'STC-REGULAR';
+                font-size: 16px;
+                color: $black;
+            }
+            .p-datatable .p-datatable-tbody > tr > td:nth-child(2) {
+               font-family: 'STC-BOLD';
+               font-size: 16px;
+               color: $purple;
+            }
+
+}
+

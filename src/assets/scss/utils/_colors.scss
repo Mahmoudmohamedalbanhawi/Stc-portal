@@ -1,0 +1,22 @@
+
+$colors-map:(
+"black":$black,
+"coral":$coral,
+"white":$white,
+"manatee":$manatee,
+"purple":$purple,
+"Isabelline":$Isabelline,
+"border-otp":$border-otp,
+"sunsetlight":$sunsetlight,
+"black-100":$black-100
+
+);
+
+@each $name , $hex-value in $colors-map {
+    .#{$name} {
+        color:$hex-value;
+    }
+    .#{$name}-bg{
+        background-color: $hex-value;
+    }
+}

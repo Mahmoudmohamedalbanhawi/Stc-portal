@@ -1,0 +1,20 @@
+<div>
+    <p class="mt-5 STC-BOLD text-xl">How to gain points?</p>
+    <p-table  [columns]="cols" [value]="activities" [tableStyle]="{ 'min-width': '50rem' }">
+        <ng-template pTemplate="header" let-columns>
+            <tr>
+                <th [ngClass]="{'text-right': translateService.currentLang === 'ar' , 'text-left' : translateService.currentLang !=='ar'}" *ngFor="let col of columns">
+                    {{ col.header }}
+                </th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-rowData let-columns="columns">
+            <tr>
+                <td [ngClass]="{'text-right': translateService.currentLang === 'ar' , 'text-left' : translateService.currentLang !=='ar'}" *ngFor="let col of columns">
+                    {{ rowData[col.field] }} 
+                </td>
+                
+            </tr>
+        </ng-template>
+    </p-table>
+</div>

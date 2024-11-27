@@ -1,0 +1,6 @@
+<div class="mt-4 ">
+    <ul class="flex gap-5">
+        <li class="STC-MEDIUM  text-xl relative	" [ngStyle]="{'left':translate.currentLang !=='ar' ? '0px' :'auto' , 'right' : translate.currentLang === 'ar' ? '0px' : 'auto'}"  ><a  class="black" [routerLinkActive]="'underline-select'" [routerLink]="'activities'">{{"leaderboard.activities" |translate}}</a></li>
+        <li class="STC-MEDIUM  text-xl relative" [ngStyle]="{'left':translate.currentLang !=='ar' ? '0px' :'auto' , 'right' : translate.currentLang === 'ar' ? '0px' : 'auto'} "><a class="black" [routerLinkActive]="'underline-select'" [routerLink]="'badgepoints'">{{"leaderboard.badgepoints" | translate}}</a></li>
+    </ul>
+</div>
