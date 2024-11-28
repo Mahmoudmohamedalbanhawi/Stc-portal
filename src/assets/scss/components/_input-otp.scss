@@ -1,0 +1,64 @@
+@import '../utils/variables';
+.p-checkbox .p-checkbox-box.p-highlight{
+    background-color: $purple !important;
+    border-color:$purple !important;
+   }
+   .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-highlight:hover {
+    background: $purple !important;
+   }
+   .p-checkbox .p-checkbox-box {
+    border: 2px solid $purple !important;
+   }
+   .p-checkbox-icon.p-icon{
+    color: $white;
+   }
+   .p-checkbox:focus{
+    outline: none !important; 
+    box-shadow: none !important; 
+}
+   .p-inputotp{
+     gap: 40px;
+   }
+   .custom-otp-input {
+    font-family: 'STC-BOLD';
+    color: $black;
+    width: 80px !important;
+    font-size: 42px !important;
+    height: 80px;
+    border: 0 none;
+    transition: all 0.2s;
+    background: $otp-background !important;
+    border-bottom: 3px solid $border-otp !important;
+    border-radius: 0px !important ;
+}
+.p-inputtext:enabled:hover {
+    border: 2px solid  $Isabelline;
+}
+.p-inputtext{
+    resize: none;
+}
+.p-inputtext {
+    border: 2px solid  $Isabelline;
+    border-radius: 4px;
+    font-family: 'STC-BOLD';
+    font-size: 16px;
+}
+.custom-otp-input:focus {
+    outline: 0 none;
+    box-shadow: none;
+}
+    .p-icon {
+    color: $coral;
+    
+  }
+  .p-dialog .p-dialog-header .p-dialog-header-icon{
+    background: transparent !important;
+  }
+.p-dialog-header-icons{
+    padding: 16px;
+}
+
+  
+.p-dialog .p-dialog-header .p-dialog-header-icon:enabled:hover{
+    background: none !important;
+}

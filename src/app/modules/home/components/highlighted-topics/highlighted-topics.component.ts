@@ -7,6 +7,6 @@ import { Article } from '../../../core/Interface/articles';
   styleUrl: './highlighted-topics.component.scss'
 })
 export class HighlightedTopicsComponent {
-@Input() followedTopics!:any;
+@Input() followedTopics!:Article;
 
 }
