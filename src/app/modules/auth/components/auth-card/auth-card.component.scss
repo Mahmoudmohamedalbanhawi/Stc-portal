@@ -1,0 +1,30 @@
+@import '../../../../../assets/scss/utils/variables';
+:host ::ng-deep .header-img {
+    background-image: url('/assets/images/backgroundimage.png');
+  
+   .grid{
+    margin-top: 30px;
+   .border-img{
+    border-top: 40px solid $purple;
+    border-bottom: 32px solid $purple;
+    padding: 0;
+    margin: 0;
+   }
+    .card{
+        border-color:$border-color ;
+        border-radius: 32px;
+        .btn{
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+    }
+    
+   }
+
+
+
+
+
+}
+
+

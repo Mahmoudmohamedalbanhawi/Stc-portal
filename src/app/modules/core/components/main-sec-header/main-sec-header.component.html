@@ -1,0 +1,26 @@
+<div class="flex border-bottom-2 justify-content-between align-items-start">
+    <div class="flex gap-5">
+     <div class="img ">
+         <img class="border-radius object-cover" [src]="userImage" [style.width.px]="imagewidth" [style.height.px]="imageheight" alt="software-engineer-portfolio"/>
+     </div>
+     <div class="content">
+         <h2 class="purple STC-BOLD text-4xl mt-1 mb-2">{{heading | translate}}</h2>
+         <p class="STC-REGULAR text-2xl mb-4">{{"leaderboard.name" | translate}}</p>
+         <div class="flex   mb-5 align-items-center gap-2">
+             <div class="img">
+                 <img [src]="avatarImage" class="border-radius object-cover"  [style.width.px]="imagewidth" [style.height.px]="imageheight"  alt="avatar-img"/>
+             </div>
+             <p [ngClass]="levelClass">
+                 {{"leaderboard.level" | translate}}
+             </p>
+                
+         </div>
+         </div>
+         
+    </div>
+    <div >
+     <button   class=" coral-bg mb-7  border-transparent  cursor-pointer  py-2 px-4">
+       <a  class="white text-base STC-MEDIUM">{{"leaderboard.account"|translate}}</a>
+   </button>
+   </div>
+ </div>

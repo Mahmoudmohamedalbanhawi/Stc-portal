@@ -1,0 +1,35 @@
+<div class="mt-5">
+    <div class="card">
+        <p-table [value]="badgepoints" [tableStyle]="{ 'min-width': '85rem' }">
+            <ng-template pTemplate="header">
+                <tr >
+                    <th [ngClass]="{'text-right': translate.currentLang === 'ar' , 'text-left' : translate.currentLang !=='ar'}">Level</th>
+                    <th [ngClass]="{'text-right': translate.currentLang === 'ar' , 'text-left' : translate.currentLang !=='ar'}">Eligble for</th>
+                
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-badgepoints>
+                <tr>
+                    <td [ngClass]="{'text-right': translate.currentLang === 'ar' , 'text-left' : translate.currentLang !=='ar'}">
+                        <div class=" ">
+                          <div class="flex gap-2">
+                            <div class="img ">
+                                <img class="border-radius object-cover" width="45px" height="45px" [src]="badgepoints.src" alt="avatar-img"/>
+                            </div>
+                            <div>
+                                <p class="STC-MEDIUM purple mt-2 mb-2 text-base">{{badgepoints.name}}</p>
+                                <p class="STC-REGULAR text-base manatee" >{{badgepoints.rangepoints}}</p>
+                            </div>
+                            <div class="mt-2">
+                                <span class="white STC-REGULAR px-2 py-1 border-pill  border-otp-bg text-sm " [ngClass]="{'border-otp-bg': isEarnedBadge(badgepoints.pill), 'sunsetlight-bg': isComingBadge(badgepoints.pill)}">{{badgepoints.pill}}</span>
+                            </div>
+                          </div>
+                        </div>
+                    </td>
+                    <td class="STC-REGULAR black text-base" [ngClass]="{'text-right': translate.currentLang === 'ar' , 'text-left' : translate.currentLang !=='ar'}">{{ badgepoints.Eligble }}</td>
+                  
+                </tr>
+            </ng-template>
+        </p-table>
+    </div>
+</div>

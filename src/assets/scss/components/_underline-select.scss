@@ -1,0 +1,14 @@
+@import '../utils/variables';
+.underline-select{
+    font-family: 'STC-BOLD';
+    &::before{
+        position: absolute;;
+        content: '';
+        
+        width: 91px;
+        border: 2.5px solid $coral;
+        bottom: -7px;
+        
+    }
+ 
+}

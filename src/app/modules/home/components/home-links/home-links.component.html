@@ -1,0 +1,8 @@
+<div class="mt-4 ">
+    <ul class="flex gap-7">
+        <li class="STC-MEDIUM  text-xl relative	" [ngStyle]="{'left':translate.currentLang !=='ar' ? '0px' :'auto' , 'right' : translate.currentLang === 'ar' ? '0px' : 'auto'}"  ><a  class="black" [routerLinkActive]="'underline-select'" [routerLink]="'trend'">{{"home.trend" |translate}}</a></li>
+        <li class="STC-MEDIUM  text-xl relative" [ngStyle]="{'left':translate.currentLang !=='ar' ? '0px' :'auto' , 'right' : translate.currentLang === 'ar' ? '0px' : 'auto'} "><a class="black" [routerLinkActive]="'underline-select'" [routerLink]="'followedtopics'">{{"home.topics" | translate}}</a></li>
+        <li class="STC-MEDIUM  text-xl relative" [ngStyle]="{'left':translate.currentLang !=='ar' ? '0px' :'auto' , 'right' : translate.currentLang === 'ar' ? '0px' : 'auto'} "><a class="black" [routerLinkActive]="'underline-select'" [routerLink]="'latestnews'">{{"home.news" | translate}}</a></li>
+
+    </ul>
+</div>
