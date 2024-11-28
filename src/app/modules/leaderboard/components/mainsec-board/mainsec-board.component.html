@@ -1,26 +1,2 @@
-<div class="flex border-bottom-2 justify-content-between align-items-start">
-   <div class="flex gap-5">
-    <div class="img ">
-        <img class="border-radius object-cover" src="/assets/images/userimage.png" style="width:97px ; height: 97px;" alt="software-engineer-portfolio"/>
-    </div>
-    <div class="content">
-        <h2 class="purple STC-BOLD text-4xl mt-1 mb-2">{{"leaderboard.welcome" | translate}}</h2>
-        <p class="STC-REGULAR text-2xl mb-4">{{"leaderboard.name" | translate}}</p>
-        <div class="flex   mb-5 align-items-center gap-2">
-            <div class="img">
-                <img src="/assets/images/achievement-124188.png" class="border-radius object-cover" width="48px" height="48px" alt="avatar-img"/>
-            </div>
-            <p class="STC-MEDIUM purple text-2xl">
-                {{"leaderboard.level" | translate}}
-            </p>
-               
-        </div>
-        </div>
-        
-   </div>
-   <div >
-    <button   class=" coral-bg mb-7  border-transparent  cursor-pointer  py-2 px-4">
-      <a  class="white text-base STC-MEDIUM">{{"leaderboard.account"|translate}}</a>
-  </button>
-  </div>
-</div>
+
+<stc-main-sec-header [heading]="'leaderboard.welcome'" levelClass="STC-MEDIUM text-2xl purple" userImage="/assets/images/userimage.png" avatarImage="/assets/images/achievement-124188.png"></stc-main-sec-header>

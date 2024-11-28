@@ -14,38 +14,31 @@ import { LayoutComponent } from './layout/layout/layout.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { HttpClientModule } from '@angular/common/http';
-export function createTranslateLoader(http:HttpClient){
-  return new TranslateHttpLoader(http,'assets/i18n/','.json');
-}
+import { MainSecHeaderComponent } from './components/main-sec-header/main-sec-header.component';
+
  
 @NgModule({
   declarations: [
     LayoutComponent,
     NavBarComponent,
-    SideBarComponent
+    SideBarComponent,
+    MainSecHeaderComponent,
     ],
   imports: [
     HttpClientModule,
    ToolbarModule ,
     CommonModule,
     RouterModule,
-    BrowserAnimationsModule,
     MenubarModule,
     ButtonModule,
-    TranslateModule.forRoot({
-      defaultLanguage:'en',
-      loader:{
-        provide:TranslateLoader,
-        useFactory:createTranslateLoader,
-        deps:[HttpClient]
-      }
-    })
+    TranslateModule
+    
   ],
   providers:[provideHttpClient()],
   exports: [
     RouterModule,
     LayoutComponent,
-   
+    MainSecHeaderComponent
   ],
 })
 export class CoreModule {}

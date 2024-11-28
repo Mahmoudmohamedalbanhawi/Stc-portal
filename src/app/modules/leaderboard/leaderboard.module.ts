@@ -10,6 +10,7 @@ import { LeaderboardLinksComponent } from './components/leaderboard-links/leader
 import { ActivitiesComponent } from './components/activities/activities.component';
 import { BadgepointsComponent } from './components/badgepoints/badgepoints.component';
 import { TableModule } from 'primeng/table';
+import { CoreModule } from '../core/core.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TableModule } from 'primeng/table';
     TableModule,
     CommonModule,
     LeaderboardRoutingModule,
-    TranslateModule
+    TranslateModule,
+    CoreModule
   ]
 })
 export class LeaderboardModule { }

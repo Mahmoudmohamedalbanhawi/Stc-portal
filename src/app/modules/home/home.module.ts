@@ -11,6 +11,7 @@ import { FollowedTopicsComponent } from './components/followed-topics/followed-t
 import { LatestNewsComponent } from './components/latest-news/latest-news.component';
 import { HighlightedTopicsComponent } from './components/highlighted-topics/highlighted-topics.component';
 import { QuestionDetailsComponent } from './components/question-details/question-details.component';
+import { CoreModule } from '../core/core.module';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { QuestionDetailsComponent } from './components/question-details/question
   imports: [
     CommonModule,
     HomeRoutingModule,
-    TranslateModule
+    TranslateModule,
+    CoreModule
   ]
 })
 export class HomeModule { }
